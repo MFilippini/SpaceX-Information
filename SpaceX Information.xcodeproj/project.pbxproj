@@ -12,6 +12,9 @@
 		49D1689620F5346F00B4AF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D1689420F5346F00B4AF2C /* Main.storyboard */; };
 		49D1689820F5347000B4AF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D1689720F5347000B4AF2C /* Assets.xcassets */; };
 		49D1689B20F5347000B4AF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D1689920F5347000B4AF2C /* LaunchScreen.storyboard */; };
+		49D168A320F537A300B4AF2C /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D168A220F537A300B4AF2C /* SwiftyJSON.swift */; };
+		49D168A520F5417C00B4AF2C /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D168A420F5417C00B4AF2C /* NewsCell.swift */; };
+		49D168A720F5DA6700B4AF2C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D168A620F5DA6700B4AF2C /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		49D1689720F5347000B4AF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49D1689A20F5347000B4AF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49D1689C20F5347000B4AF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D168A220F537A300B4AF2C /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		49D168A420F5417C00B4AF2C /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		49D168A620F5DA6700B4AF2C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				49D1689020F5346F00B4AF2C /* AppDelegate.swift */,
 				49D1689220F5346F00B4AF2C /* ViewController.swift */,
+				49D168A620F5DA6700B4AF2C /* DetailView.swift */,
+				49D168A420F5417C00B4AF2C /* NewsCell.swift */,
 				49D1689420F5346F00B4AF2C /* Main.storyboard */,
 				49D1689720F5347000B4AF2C /* Assets.xcassets */,
 				49D1689920F5347000B4AF2C /* LaunchScreen.storyboard */,
 				49D1689C20F5347000B4AF2C /* Info.plist */,
+				49D168A220F537A300B4AF2C /* SwiftyJSON.swift */,
 			);
 			path = "SpaceX Information";
 			sourceTree = "<group>";
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49D168A320F537A300B4AF2C /* SwiftyJSON.swift in Sources */,
 				49D1689320F5346F00B4AF2C /* ViewController.swift in Sources */,
+				49D168A520F5417C00B4AF2C /* NewsCell.swift in Sources */,
+				49D168A720F5DA6700B4AF2C /* DetailView.swift in Sources */,
 				49D1689120F5346F00B4AF2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
