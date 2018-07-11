@@ -16,8 +16,10 @@ class DetailView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         detailTextBox.text = details
+        if(details == "" ){
+           detailTextBox.text = "This launch does not have any additional details"
+        }
         
     }
 
